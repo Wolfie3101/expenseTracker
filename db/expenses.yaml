@@ -1,0 +1,7 @@
+---
+transaction:
+  date: 2023-11-06
+  category: living
+  description: "hrana, ponev"
+  payee: "Lidl"
+  expense: 33.22
