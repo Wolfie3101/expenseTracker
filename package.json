@@ -1,0 +1,13 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.9.0",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "test": "npx tsc && node index.js"
+  },
+  "dependencies": {
+    "fs": "^0.0.1-security",
+    "yaml": "^2.3.4"
+  }
+}
