@@ -3,4 +3,4 @@ import { expenses } from "./src/models/Expenses";
 
 const transactions: expenses = new expenses(getTransactions());
 
-console.log(transactions.getExpense());
+console.log(transactions);
