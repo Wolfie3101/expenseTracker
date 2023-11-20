@@ -1,6 +1,6 @@
 import { getTransactions } from "./src/handlers/GetTransaction";
-import { expense } from "./src/models/Expense";
+import { expenses } from "./src/models/Expenses";
 
-const transactions: expense[] = getTransactions();
+const transactions: expenses = new expenses(getTransactions());
 
-console.log(transactions);
+console.log(transactions.getExpense());
